@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* BACKGROUNDS */
+
+.bg-green{
+    background-color: #61FF7B;
+}
+
+.bg-pink{
+    background-color: #1398A0;
+}
+
+.bg-black{
+    background-color: #1B1E23;
+}
+
+.bg-candy{
+    background-color: #C7385E;
+}
+
+.bg-hero{
+    background-image: url(assets/Pexels\ Photo\ by\ Erik\ Mclean.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 1000px;
+}
+
+/* RADIUS */
+
+.br-32{
+    border-radius: 32px;
+}
+
+.br-chelou{
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+}
+
+.br-8{
+    border-radius: 8px;
+}
+
+.br-8-left{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.br-27{
+    border-radius: 27px;
+}
+
+.br-16{
+    border-radius: 16px;
+}
+
+.br-50{
+    border-radius: 50px;
+}
+
+/* BORDERS */
+
+.border-1{
+    border: 1px solid gray;
+}
+
+.border-2{
+    border: 2px solid black;
+}
+
+.border-dashed{
+    border: 5px dashed black;
+}
+
+/* COLORS */
+
+.white{
+    color: white;
+}
+
+.black{
+    color: black;
+}
+
+.red{
+    color: #FF4D35;
+}
+
+/* PADDINGS */
+
+.p-btn{
+    padding: 16px 32px;
+}
+
+.p-card{
+    padding: 32px 16px;
+}
+
+.p-8{
+    padding: 8px;
+}
+
+.p-16{
+    padding: 16px;
+}
+
+.pt-330{
+    padding-top: 330px;
+}
+
+.pt-128{
+    padding-top: 128px;
+}
+
+.p-32{
+    padding: 32px;
+}
+
+/* TEXTE */
+
+.txt-none{
+    text-decoration: none;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+/* FONT-SIZE */
+
+.size-22{
+    font-size: 22px;
+}
+
+.size-16{
+    font-size: 16px;
+}
+
+.size-18{
+    font-size: 18px;
+}
+
+.size-14{
+    font-size: 14px;
+}
+
+.size-12{
+    font-size: 12px;
+}
+
+.size-48{
+    font-size: 48px;
+}
+
+/* FONT-WEIGHT */
+
+.bold{
+    font-weight: bold;
+}
+
+.semibold{
+    font-weight: 600;
+}
+
+/* MARGINS */
+
+.m-32{
+    margin: 32px;
+}
+
+.mb-16{
+    margin-bottom: 16px;
+}
+
+.mb-64{
+    margin-bottom: 64px;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.ml-16{
+    margin-left: 16px;
+}
+
+.ml-64{
+    margin-left: 64px;
+}
+
+.ml-175{
+    margin-left: 175px;
+}
+
+.ml-128{
+    margin-left: 128px;
+}
+
+.mt-128{
+    margin-top: 128px;
+}
+
+.mr-16{
+    margin-right: 16px;
+}
+
+/* CARDS */
+
+.card-1{
+    width: 325px;
+}
+
+.card-2{
+    width: 551px;
+}
+
+.card-3{
+    width: 300px;
+}
+
+/* WIDTHS */
+
+.w-100{
+    width: 100%;
+}
+
+.w-50{
+    width: 50%;
+}
+
+/* HOVER */
+
+.bg-green:hover{
+    background-color: #61FF7B;
+}
+
+.bg-blue:hover{
+    background-color: #1398A0;
+}
+
+/* FLEX */
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.justify-end{
+    justify-content: end;
+}
+
+.align-end{
+    justify-content: flex-end;
+}
+
+.column{
+    flex-direction: column;
+}
+
+/* ANIME CARDS */
+
+.bg-toji{
+    background-image: url(https://i.pinimg.com/originals/07/c9/9b/07c99bda5417bc7774089b52e7340c36.gif);
+    background-size: cover;
+    background-position: top;
+}
+
+.bg-gojo{
+    background-image: url(https://i.pinimg.com/originals/d7/e9/3b/d7e93b5754f95696d4913e6489ce788a.gif);
+    background-size: cover;
+    background-position: top;
+}
+
+.bg-levi{
+    background-image: url(https://i.pinimg.com/originals/7a/9c/fb/7a9cfbb6e006a76637aca096ae4a7bb8.gif);
+    background-size: cover;
+    background-position: top;
+}
