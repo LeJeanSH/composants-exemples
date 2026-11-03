@@ -10,6 +10,7 @@
 a {
     display: inline-block;
     text-decoration: none;
+    color: gold;
 }
 
 /* BACKGROUNDS */
@@ -135,6 +136,10 @@ a {
 
 .txt-center{
     text-align: center;
+}
+
+.txt-right{
+    text-align: right;
 }
 
 /* FONT-SIZE */
@@ -268,11 +273,7 @@ a {
     justify-content: space-around;
 }
 
-.justify-end{
-    justify-content: end;
-}
-
-.align-end{
+.flex-end{
     justify-content: flex-end;
 }
 
@@ -296,6 +297,18 @@ a {
 
 .bg-levi{
     background-image: url(https://i.pinimg.com/originals/7a/9c/fb/7a9cfbb6e006a76637aca096ae4a7bb8.gif);
+    background-size: cover;
+    background-position: top;
+}
+
+.bg-luffy{
+    background-image: url(https://i.pinimg.com/originals/f2/95/e0/f295e0bfc2e646bbf49a50caabcee230.gif);
+    background-size: cover;
+    background-position: top;
+}
+
+.bg-killua{
+    background-image: url(https://i.pinimg.com/originals/9c/2b/56/9c2b5679e268164fa34931f16d877c94.gif);
     background-size: cover;
     background-position: top;
 }
